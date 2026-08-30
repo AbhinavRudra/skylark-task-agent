@@ -20,6 +20,9 @@ Recorded runs of the agent answering the queries below, straight from the VSCode
 | "Show me all deals stuck in Proposal/Commercials Sent stage for more than a month?" | [result](q1.md) |
 | "What's our average deal value?" (181/346 rows null — answer should state how many were excluded and why?" | [results](q2.md) |
 
+### Demo look :
+<img width="607" height="980" alt="image" src="https://github.com/user-attachments/assets/e30591f6-176d-4996-ae92-1b2d144c995d" />
+
 ---
 
 ## How it was built
@@ -175,16 +178,7 @@ Add both servers to `.vscode/mcp.json` (already included in this repo):
 Reload MCP servers in VSCode (Command Palette → `MCP: List Servers` → restart). You should now
 have both monday's tools and `clean_board_data` available to the agent in this workspace.
 
-### 3. Hosted deployment
-
-```
-[Fill in: env vars required, deploy command, and how the hosted backend authenticates
-to monday.com — e.g. MONDAY_API_TOKEN and ANTHROPIC_API_KEY as environment variables on
-the hosting platform.]
-```
-
 ---
-
 ## Example queries to try
 
 - "How's our pipeline looking for the mining sector this quarter?"
